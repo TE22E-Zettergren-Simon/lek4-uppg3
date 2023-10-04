@@ -1,0 +1,36 @@
+body {
+	background-image: url(./img/winter_bg3.jpg);
+	background-size: cover;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 10% auto 10%;
+}
+
+.högtider,
+main,
+footer {
+	grid-column: 2/3;
+}
+
+.justify-end {
+	justify-self: end;
+}
+
+header {
+	text-align: center;
+}
+
+.högtider {
+	justify-self: center;
+}
+
+.kalender {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+footer {
+	text-align: center;
+}
