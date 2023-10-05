@@ -6,6 +6,7 @@ body {
 .grid {
 	display: grid;
 	grid-template-columns: 10% auto 10%;
+	gap: 16px;
 }
 
 .högtider,
@@ -20,17 +21,72 @@ footer {
 
 header {
 	text-align: center;
+
+	font-size: 1.5rem;
+	color: beige;
+	background-color: dimgray;
+	border: 3px solid brown;
 }
 
 .högtider {
 	justify-self: center;
+
+	color: white;
+	background-color: dimgray;
+	border: 2px solid gold;
+
+	list-style: square;
 }
 
 .kalender {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
+
+	padding: 16px;
+
+	background-color: #f6e9dc;
+	border: 2px solid gray;
+}
+
+.kalender h2 {
+	margin-bottom: 10px;
+	padding: 16px 0;
+
+	text-align: center;
+	background-color: gray;
+	border: 2px solid brown;
+}
+
+.kalender h1 {
+	margin: 0;
+	padding: 25px 0;
+
+	text-align: center;
+	border: 2px solid brown;
 }
 
 footer {
 	text-align: center;
+	padding-bottom: 16px;
+}
+
+footer a {
+	padding: 0.25rem;
+
+	color: black;
+	background-color: white;
+	box-shadow: 0 0 1.25rem white;
+	font-size: 1.25rem;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.julafton {
+	color: red;
+	background-color: white;
+}
+
+.nyårsdagen {
+	background-color: darkgoldenrod;
 }
